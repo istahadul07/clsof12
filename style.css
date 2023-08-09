@@ -1,0 +1,43 @@
+body{
+    font-size:  20px;
+}
+a{
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: blueviolet;
+}
+#a1{
+     text-decoration-line: overline;
+    text-decoration-color: aqua;
+    text-decoration-style: double;
+    text-transform: uppercase;
+    
+}
+#a{
+     text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: burlywood;
+    text-decoration-skip: 5px;
+    text-transform: lowercase;
+}
+#a2{
+    color: black;
+    text-decoration: underline green dashed 4px;
+    text-transform: capitalize;
+}
+#p{
+    text-indent: 60px;
+    letter-spacing: 2px;
+   line-height:  80px;
+    white-space: nowrap;
+    font-family:monospace;
+    
+}
+#t{
+    text-indent: 50px;
+    line-height: 50px;
+    word-spacing: 5px;
+    text-shadow: 5px 0px 0px grey,0px 5px 0px red,
+    0px 0px 3px    darkblue;
+    font-family: fantasy;
+}
